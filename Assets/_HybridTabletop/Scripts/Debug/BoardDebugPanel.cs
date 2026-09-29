@@ -27,7 +27,7 @@ namespace HybridTabletop.Debugging
                 return;
             }
 
-            GridLayout layout = boardBootstrap.Layout;
+            HybridTabletop.Board.GridLayout layout = boardBootstrap.Layout;
 
             GUILayout.Label($"Display: {Screen.width} x {Screen.height}px");
             GUILayout.Label(

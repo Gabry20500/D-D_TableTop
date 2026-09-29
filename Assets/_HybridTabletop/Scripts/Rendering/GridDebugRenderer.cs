@@ -19,7 +19,7 @@ namespace HybridTabletop.Rendering
                 return;
             }
 
-            GridLayout layout = boardBootstrap.Layout;
+            HybridTabletop.Board.GridLayout layout = boardBootstrap.Layout;
 
             float cellWidth =
                 worldWidth / layout.Columns;
